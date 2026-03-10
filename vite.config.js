@@ -9,4 +9,7 @@ export default defineConfig({
       input: 'index.html',
     },
   },
+  esbuild: {
+    jsxInject: `import React from 'react'`,
+  },
 })
